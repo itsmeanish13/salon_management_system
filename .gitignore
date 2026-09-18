@@ -1,0 +1,53 @@
+# ==========================================
+# ROOT / GLOBAL
+# ==========================================
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# ==========================================
+# BACKEND (Django)
+# ==========================================
+# Environment & Secrets
+backend/.env
+backend/*env/
+backend/venv/
+backend/ENV/
+
+# Python compiled files & cache
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+
+# Database & Media
+backend/db.sqlite3
+backend/db.sqlite3-journal
+backend/media/
+backend/staticfiles/
+
+# Testing & Coverage
+backend/htmlcov/
+backend/.coverage
+backend/.pytest_cache/
+
+# ==========================================
+# FRONTEND (React)
+# ==========================================
+# Dependencies
+frontend/node_modules/
+
+# Build outputs
+frontend/build/
+frontend/dist/
+
+# Local env files
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Testing & Cache
+frontend/coverage/
+frontend/.eslintcache
